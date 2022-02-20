@@ -32,9 +32,7 @@ public class User {
    }
 
    public User(String firstName, String lastName, String email, Car car){
-      this.firstName = firstName;
-      this.lastName =lastName;
-      this.email = email;
+      this (firstName, lastName, email);
       this.car = car;
    }
 
